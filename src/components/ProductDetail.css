@@ -1,0 +1,39 @@
+.product-detail-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px;
+    position: relative;
+    top: 50px;
+    box-sizing: border-box;
+}
+
+/* 태블릿 버전 */
+@media (min-width: 744px) and (max-width: 1199px) {
+    .product-detail-container {
+        width: calc(100% - 40px);
+        margin: 0 auto;
+        padding-left: 0;
+        padding-right: 0;
+        position: relative;
+        top: 50px;
+        box-sizing: border-box;
+    }
+}
+
+/* 모바일 버전 */
+@media (min-width: 375px) and (max-width: 743px) {
+    .product-detail-container {
+        padding-top: 20px;
+        padding-left: 35px;
+        padding-right: 35px;
+        margin: 0 auto;
+        width: 100%;
+        position: relative;
+        top: 50px;
+        box-sizing: border-box;
+    }
+}
+
